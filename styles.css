@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; /* I chose this font family to have a professional but not too professional feel to the site */
   line-height: 1.6;
   background-color: #121212;
   color: #e0e0e0;
@@ -109,7 +109,7 @@ section > h2 {
   font-weight: normal;
 }
 
-.date {
+.date { /* I made the date a different color to differentiate it from links */
   font-size: 0.9rem;
   color: #34d399;
   margin-bottom: 1rem;
