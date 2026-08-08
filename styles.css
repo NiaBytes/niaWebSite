@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333333;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #60a5fa;
+}
+
+#home {
+  color: #60a5fa;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  color: #9ca3af;
+}
+
+.skills span {
+  border-right: 1px solid #4b5563; /* Nice gray border to the left that runs down the content */
+  padding-right: 0.5rem;
+}
+
+.skills span:last-child {
+  border-right: none;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+section > h2 {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-item {
+  border-left: 2px solid #4b5563;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.timeline-item h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-item h5 {
+  font-size: 1rem;
+  color: #9ca3af;
+  font-weight: normal;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #34d399;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.timeline-item h1 a,
+.timeline-item h1 a:link,
+.timeline-item h1 a:visited,
+.timeline-item h1 a:active,
+#contact a,
+#contact a:link,
+#contact a:visited,
+#contact a:active {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.timeline-item h1 a:hover,
+#contact a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+#projects > h2 {
+  grid-column: 1 / -1;
+}
+
+#projects .timeline-item {
+  border-left: none;
+  padding: 1.5rem;
+  margin-bottom: 0;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #333333;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  border-top: 1px solid #333333;
+  padding-top: 2rem;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}

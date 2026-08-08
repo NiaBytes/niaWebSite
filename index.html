@@ -4,139 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nia Willis | Fullstack Software Engineer</title>
+    <title>Nia Willis | Full-stack Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h6>Nia Willis</h6>
-    <h1>Full-stack software engineer</h1>
-    <p>Currently an AI Engineer Apprentice in Flation School's 19-month immersive, combining hands-on full-stack
-        development with machine learning and a concurrent paid apprenticeship. I ship responsive React frontends,
-        secure Flask backends, and deploy ML-powered features using modern MLOps.</p>
 
-    <div class="skills">
-        <span>HTML, CSS, Javascript</span>
-        <span>React</span>
-        <span>Python / Flask</span>
-        <span>AI</span>
-        <span>Machine Learning</span>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    </div>
+    <main class="container">
 
+        <h2 id="home">Nia Willis</h2>
+        <h1 id="title">Full-stack software engineer</h1>
+        <p>Currently an AI Engineer Apprentice in Flatiron School's 19-month immersive, combining hands-on full-stack
+            development with machine learning and a concurrent paid apprenticeship. I ship responsive React frontends,
+            secure Flask backends, and deploy ML-powered features using modern MLOps.</p>
 
-    <section class="timeline">
+        <div class="skills">
+            <span>HTML, CSS, Javascript</span>
+            <span>React</span>
+            <span>Python / Flask</span>
+            <span>AI</span>
+            <span>Machine Learning</span>
+        </div>
 
-        <!-- JOB SECTION -->
-        <!-- Job role 1 -->
-        <article class="work-item">
-            <h1>AI Engineer Apprentice</h1>
-            <h5>Flatiron School</h5>
-            <p class="date">2026 - Present</p>
-            <p>Building full‑stack web applications with React, Python, Flask, SQL, Flask‑SQLAlchemy, REST APIs, and JWT
-                authentication – all deployed in cloud environments.</p>
-            <p>Training machine learning models with Scikit‑Learn (classification, regression, clustering, PCA) and
-                architecting deep neural networks (CNNs, RNNs, Transformers) using Keras.
+        <section class="timeline">
+            <h2>Experience</h2>
+
+            <article class="timeline-item">
+                <h1>AI Engineer Apprentice</h1>
+                <h5>Flatiron School</h5>
+                <p class="date">2026 - Present</p>
+                <p>Currently gaining hands-on experience in:</p>
+                <p>Building full‑stack web applications with React, Python, Flask, SQL, Flask‑SQLAlchemy, REST APIs, and
+                    JWT
+                    authentication – all deployed in cloud environments.</p>
+                <p>Training machine learning models with Scikit‑Learn (classification, regression, clustering, PCA) and
+                    architecting deep neural networks (CNNs, RNNs, Transformers) using Keras.</p>
+                <p>Applying NLP, time‑series analysis, and generative AI: fine‑tuning large language models, prompt
+                    engineering, and deploying with open‑source MLOps tools.</p>
+            </article>
+
+            <article class="timeline-item">
+                <h1>System Administrator</h1>
+                <h5>Northwest Alabama Mental Health Center</h5>
+                <p class="date">03/2026 - 05/2026</p>
+
+                <p>Orchestrated enterprise software integrations, aligning technical architecture and backend
+                    environments
+                    with organizational requirements.</p>
+                <p>Architected data redundancy and disaster recovery systems utilizing on-premises servers, ensuring
+                    high
+                    availability—a core principle for resilient backend applications.</p>
+                <p>Configured Identity and Access Management (IAM) workflows for a ~500‑user organization, applying
+                    strict
+                    authentication and authorization principles.</p>
+                <p>Executed large-scale infrastructure migrations, transitioning unmanaged network devices into
+                    standardized, policy‑driven secure environments.</p>
+                <p>Evaluated system security postures, emphasizing secure configuration practices and strict HIPAA data
+                    protection compliance.</p>
+            </article>
+
+            <article class="timeline-item">
+                <h1>Search Engine & AI Evaluator (US Rater)</h1>
+                <h5>TELUS Digital</h5>
+                <p class="date">08/2022 - 06/2025</p>
+
+                <p>Applied strict technical rubrics to evaluate search engine algorithms and AI models, ensuring data
+                    integrity and output accuracy.</p>
+                <p>Monitored system outputs against standardized SLAs, identifying data anomalies and escalating process
+                    exceptions for review.</p>
+            </article>
+
+            <article class="timeline-item">
+                <h1>IT Technician</h1>
+                <h5>Bevill State Community College</h5>
+                <p class="date">04/2021 - 12/2021</p>
+
+                <p>Managed configuration and deployment protocols across 200+ network endpoints, utilizing continuous
+                    change
+                    management strategies.</p>
+                <p>Audited system availability against rigorous security baselines prior to production handoff.</p>
+            </article>
+
+            <h2>Education</h2>
+
+            <!-- School 1 -->
+            <article class="timeline-item">
+                <h1>M.S Information Technology Management (Accelerated)</h1>
+                <h5>Western Governors University</h5>
+                <p class="date">January 2026</p>
+            </article>
+
+            <!-- School 2 -->
+            <article class="timeline-item">
+                <h1>B.S Information Technology (Accelerated)</h1>
+                <h5>Western Governors University</h5>
+                <p class="date">May 2025</p>
+            </article>
+
+            <!-- School 3 -->
+            <article class="timeline-item">
+                <h1>A.A.S Information Technology</h1>
+                <h5>Bevill State Community College</h5>
+                <p class="date">May 2022</p>
+            </article>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <article class="timeline-item">
+                <h1>CompTIA Security+</h1>
+                <p class="date">Valid until April 2028</p>
+
+                <h1>CompTIA A+</h1>
+                <p class="date">Valid until April 2028</p>
+
+                <h1>AWS Certified Cloud Practitioner</h1>
+                <p class="date">Valid until 2028</p>
+
+                <h1>ITIL V4 Foundation</h1>
+                <p class="date">Valid until 2028</p>
+
+                <h1>CompTIA Network+</h1>
+                <p class="date">Valid until April 2028</p>
+
+                <h1>LPI Linux Essentials</h1>
+                <p class="date">Perpetual Certification</p>
+            </article>
+        </section>
+
+        <section id="projects" class="timeline">
+            <h2>Projects</h2>
+
+            <article class="timeline-item">
+                <h1><a href="https://github.com/NiaBytes/Summative-Lab-Part-1--Javascript-Calculator"
+                        target="_blank">Summative-Lab-Part-1--Javascript-Calculator</a></h1>
+                <h5>JavaScript</h5>
+                <p>Created a calculator in Javascript with history storage.</p>
+            </article>
+
+            <article class="timeline-item">
+                <h1><a href="https://github.com/NiaBytes/html-travel-blog-lab" target="_blank">html-travel-blog-lab</a></h1>
+                <h5>HTML / JavaScript</h5>
+                <p>Created a simple travel blog for Fire Island</p>
+            </article>
+
+            <article class="timeline-item">
+                <h1><a href="https://github.com/NiaBytes/js-expressions-lab-1" target="_blank">js-expressions-lab-1</a></h1>
+                <h5>JavaScript</h5>
+                <p>Calculated the average temperature in the city of Rome over a 30-day period.</p>
+            </article>
+        </section>
+
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+            <p>Hello, my name is Nia, I am a Transgender, LGBTQ+ software developer. I am passionate about programming,
+                and
+                I dedicate myself to learning programming from the ground up.</p>
+            <p>I am proud to learn Software Engineering and challenge myself to become great at what I do in any
+                environment. I can meet your needs, whether you run an AI powered development team, or use no AI at all.
             </p>
-            <p>Applying NLP, time‑series analysis, and generative AI: fine‑tuning large language models, prompt
-                engineering, and deploying with open‑source MLOps tools.</p>
-        </article>
+            <p>I prioritize business needs and outcomes, leveraging the business acumen from my Master's in IT
+                management, I
+                see the bigger picture and flow of a project from beginning to end.</p>
+            <p>In my spare time, I enjoy tinkering with Linux as my daily operating system, and reading.</p>
+        </section>
 
-        <!-- Job role 2 -->
-        <article class="work-item">
-            <h1>System Administrator</h1>
-            <h5>Northwest Alabama Mental Health Center</h5>
-            <p class="date">03/2026 - 05/2026</p>
-            <p>Orchestrated enterprise software integrations, aligning technical architecture and backend environments
-                with organizational requirements.
-            </p>
-            <p>Architected data redundancy and disaster recovery systems utilizing on-premises servers, ensuring high
-                availability—a core principle for resilient backend applications.
-            </p>
-            <p>Configured Identity and Access Management (IAM) workflows for a ~500‑user organization, applying strict
-                authentication and authorization principles.
-            </p>
-            <p>Executed large-scale infrastructure migrations, transitioning unmanaged network devices into
-                standardized, policy‑driven secure environments.
-            </p>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:nia@niabytes.fyi">nia@niabytes.fyi</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/NiaBytes">linkedin.com/in/NiaBytes</a></p>
+        </section>
 
-            <p>Evaluated system security postures, emphasizing secure configuration practices and strict HIPAA data
-                protection compliance.
-            </p>
-        </article>
+        <footer>
+            <p>&copy; 2026 Nia Willis</p>
+        </footer>
 
-        <!-- Job role 3 -->
-        <article class="work-item">
-            <h1>Search Engine & AI Evaluator (US Rater)</h1>
-            <h5>TELUS Digital</h5>
-            <p class="date">08/2022 - 06/2025</p>
-            <p>Applied strict technical rubrics to evaluate search engine algorithms and AI models, ensuring data
-                integrity and output accuracy.
-            </p>
-            <p>Monitored system outputs against standardized SLAs, identifying data anomalies and escalating process
-                exceptions for review.
-            </p>
-        </article>
-
-        <!-- Job role 4 -->
-        <article class="work-item">
-            <h1>IT Technician</h1>
-            <h5>Bevill State Community College</h5>
-            <p class="date">04/2021 - 12/2021</p>
-            <p>Managed configuration and deployment protocols across 200+ network endpoints, utilizing continuous change
-                management strategies.
-            </p>
-            <p>Audited system availability against rigorous security baselines prior to production handoff.
-            </p>
-
-        </article>
-
-        <!-- EDUCATION SECTION -->
-        <!-- School 1 -->
-        <article class="education-item">
-            <h1>M.S Information Technology Management (Accelerated)</h1>
-            <h5>Western Governors University</h5>
-            <p class="date">January 2026</p>
-        </article>
-
-        <!-- School 2 -->
-        <article class="education-item">
-            <h1>B.S Information Technology (Accelerated)</h1>
-            <h5>Western Governors University</h5>
-            <p class="date">May 2025</p>
-        </article>
-
-        <!-- School 3 -->
-        <article class="education-item">
-            <h1>A.A.S Information Technology</h1>
-            <h5>Bevill State Community College</h5>
-            <p class="date">May 2022</p>
-        </article>
-
-    </section>
-
-    <section class="certifications">
-        <article class="certification-item">
-            <h1>CompTIA Security+</h1>
-            <p>Valid until April 2028</p>
-
-            <h1>CompTIA A+</h1>
-            <p>Valid until April 2028</p>
-
-            <h1>AWS Certified Cloud Practitioner</h1>
-            <p>Valid until 2028</p>
-            
-            <h1>ITIL V4 Foundation</h1>
-            <p>Valid until 2028</p>
-
-            <h1>CompTIA Network+</h1>
-            <p>Valid until April 2028</p>
-
-            <h1>LPI Linux Essentials</h1>
-            <p>Perpetual Certification</p>
-        </article>
-
-    </section>
-
+    </main>
 </body>
 
 </html>
